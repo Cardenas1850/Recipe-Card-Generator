@@ -9,7 +9,7 @@ let eggs = ['2 eggs sunnyside up']
 let sauceSpices = ['Kosher Salt', 'Black Pepper', 'garlic powder', '3 chipotle peppers']
 
 let blendedSauce = ovenRoastedVeg + sauceSpices
-let cookingSteps = ['Preheat oven to ' + ovenTemp + '. ' + "On a baking tray add" + ovenRoastedVeg + " and bake till charred. " + "Once chared add to bowl with " + sauceSpices + " and blend till smooth. " + 'In a saute pan cook ' + saute + ' until chorizo is fully cooked and onions are translucent. ' + ' In the airfryer at ' + airFryTemp + ' cook ' + airFry + ' until crisp.'];
+let cookingSteps = ['Preheat oven to ' + ovenTemp + '. ' + "On a baking tray add" + ovenRoastedVeg + " and bake till charred. " + "Once chared add to bowl with " + sauceSpices + " and blend till smooth. " + 'In a saute pan cook ' + saute + ' until chorizo is fully cooked and onions are translucent. ' + ' In the airfryer at ' + airFryTemp + ' cook ' + airFry + ' until crisp.' + "make" + eggs];
 
 const breakfastMix = JSON.stringify(cookingSteps);
 
