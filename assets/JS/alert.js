@@ -15,3 +15,10 @@ const breakfastMix = JSON.stringify(cookingSteps);
 
 console.log(breakfastMix);
 console.log(typeof breakfastMix);
+window.onload = function() {
+    const para = document.createElement("p");
+    const node = document.createTextNode(breakfastMix);
+    para.appendChild(node);
+    const element = document.getElementById("recpie");
+    element.appendChild(para);
+}
